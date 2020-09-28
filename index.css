@@ -1,18 +1,108 @@
-body {
+html, body {
+    height: 100%;
+    width: 100%;
     background-color: dodgerblue;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-container {
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 7%;
+}
+
+.header-container > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-img-container {
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+    width: auto;
+}
+
+.header-img-container img {
+    height: 100%;
+    width: auto;
+}
+
+#search-button {
+    background-color: darkblue;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.feed-container {
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    height: max-content;
+    width: 60%;
+}
+
+#feed {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.feed {
-    width: 50%;
-    align-self: center;
-    align-content: center;
-    background-color: whitesmoke;
-}
-
-#post {
-    width: 75%;
+.post {
+    width: 60%;
     height: auto;
-    box-shadow: lightslategrey;
+    margin: 25px;
+    box-shadow: 0 0 30px 3px lightslategrey;
+}
+
+
+.post-img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.post.heading {
+    font-weight: bold;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avatar-container p {
+    color: grey;
+}
+
+img ~ p {
+    margin: 5px 5px 0 0;
+}
+
+.avatar-container img {
+    margin: 4px;
+    width: 7%;
+    height: auto;
+}
+
+h1 + img {
+    width: 8%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 7px;
 }

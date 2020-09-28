@@ -13,7 +13,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px 0px rgba(79,79,79,0.78);
+    box-shadow: 0 0 10px 0 rgba(79,79,79,0.78);
 
 }
 
@@ -35,7 +35,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .loginBox button {
@@ -48,6 +47,10 @@ body {
     border: none;
     font-family: 'Roboto Slab', serif;
     cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 rgba(79,79,79,0.78);
 }
 
 form {
