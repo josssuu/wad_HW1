@@ -1,0 +1,19 @@
+body {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBox {
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 55%;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
