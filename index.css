@@ -1,0 +1,18 @@
+body {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed {
+    width: 50%;
+    align-self: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+#post {
+    width: 75%;
+    height: auto;
+    box-shadow: lightslategrey;
+}
